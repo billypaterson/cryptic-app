@@ -42,7 +42,7 @@ var Navbar = function (_React$Component) {
             { className: "navbar-nav mr-auto" },
             React.createElement(
               "li",
-              { className: "nav-item" },
+              { className: "nav-item m-1 p-1 text-center dGrey" },
               React.createElement(
                 "a",
                 { className: "nav-link", href: "sign-in.html" },
@@ -51,16 +51,16 @@ var Navbar = function (_React$Component) {
             ),
             React.createElement(
               "li",
-              { className: "nav-item" },
+              { className: "nav-item m-1 p-1 text-center dGrey" },
               React.createElement(
                 "a",
-                { className: "nav-link", href: "#" },
+                { className: "nav-link", href: "events.html" },
                 "Cryptic Events"
               )
             ),
             React.createElement(
               "li",
-              { className: "nav-item" },
+              { className: "nav-item m-1 p-1 text-center dGrey" },
               React.createElement(
                 "a",
                 { className: "nav-link", href: "about-us.html" },
@@ -69,7 +69,7 @@ var Navbar = function (_React$Component) {
             ),
             React.createElement(
               "li",
-              { className: "nav-item" },
+              { className: "nav-item m-1 p-1 text-center dGrey" },
               React.createElement(
                 "a",
                 { className: "nav-link", href: "contact-us.html" },

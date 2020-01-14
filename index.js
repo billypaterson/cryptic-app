@@ -1,4 +1,5 @@
 
+
 class Navbar extends React.Component {
 
   render() {
@@ -12,16 +13,16 @@ class Navbar extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
+            <li className="nav-item m-1 p-1 text-center dGrey">
               <a className="nav-link" href="sign-in.html">Login/Register</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Cryptic Events</a>
+            <li className="nav-item m-1 p-1 text-center dGrey">
+              <a className="nav-link" href="events.html">Cryptic Events</a>
             </li>
-						<li className="nav-item">
+						<li className="nav-item m-1 p-1 text-center dGrey">
               <a className="nav-link" href="about-us.html">About Us</a>
             </li>
-						<li className="nav-item">
+						<li className="nav-item m-1 p-1 text-center dGrey">
               <a className="nav-link" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
