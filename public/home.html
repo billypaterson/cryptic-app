@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cryptic App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cryptic App</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+ 	/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/styles.css" type="text/css">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+	<div id="homePage" class="container-fluid vh-100 d-flex flex-column p-0">
+    <div id="nav"></div>
+		
+		<div class="col flex-grow-1 dGrey">
+			<h3 class="text-center mt-5 pt-5 wText">Cryptic</h3>
+			<p class="text-center wText">Welcome {Test User} </p>
+			<div class="container mt-5">
+				<div class="card-deck text-center flex-row">
+					
+						<div class="card text-dark lPurp m-3 blackBoxShadow" style="width: 8rem;">
+							<a href="my-events.html">
+							<div class="card-header">EVENTS</div>
+							
+								<div class="card-body">
+									<h6 class="card-title"></h6>
+								</div>
+							</a>
+						</div>
+					
+					
+					<div class="card text-dark lPurp m-3 blackBoxShadow" style="width: 8rem;">
+						<a href="my-rewards.html">
+						<div class="card-header">REWARDS</div>
+							
+							<div class="card-body">
+								<h6 class="card-title"></h6>
+							</div>
+							</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>	
+		<div class="col flex-grow-1 lGrey">
+			<div class="container mt-3">
+				<div class="card-deck text-center flex-row">
+					
+						<div class="card text-dark lPurp m-3 bottomBS" style="width: 8rem;">
+							<a href="my-reviews.html">
+							<div class="card-header">REVIEWS</div>
+							
+							<div class="card-body">
+								<h6 class="card-title"></h6>
+							</div>
+							</a>
+						</div>
+				
+						<div class="card text-dark lPurp m-3 bottomBS" style="width: 8rem;">
+							<a href="my-settings.html">
+							<div class="card-header">SETTINGS</div>
+							
+							<div class="card-body">
+								<h6 class="card-title"></h6>
+							</div>
+						</a>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	
+	<!-- Fixed Bottom Navbar -->
+	<nav class="navbar fixed-bottom navbar-custom blackBoxShadow">
+		<a class="navbar-brand" href="#">Fixed bottom</a>
+	</nav>
+	</div> 
 </body>
+
+	<!-- React.js scripts -->
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+	<!-- Bootstrap scripts -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+		crossorigin="anonymous"></script>
+	
+	<script src="/scripts/app.js"></script>
+	<script src="/scripts/script.js"></script>
 </html>

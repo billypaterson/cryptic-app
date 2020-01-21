@@ -18,6 +18,10 @@ body {
   font-size: 14px;
 }
 
+.lPurp {
+  background-color: #ba85f8 !important;
+}
+
 .dGrey {
 	background-color: #292929;
 }
@@ -27,7 +31,11 @@ body {
 }
 
 .bottomBS {
-  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  box-shadow: 4px 4px 10px 4px rgba(19, 35, 47, 0.6);
+}
+
+.blackBoxShadow {
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.6);
 }
 
 i {
